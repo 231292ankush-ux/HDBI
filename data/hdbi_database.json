@@ -1,0 +1,302 @@
+{
+  "agency": {
+    "name": "Shree Krishna Banking Services & RD Agency",
+    "ownerName": "Rajesh Sharma",
+    "phone": "+91 9810123456",
+    "defaultLanguage": "hi",
+    "timezone": "Asia/Kolkata",
+    "initialized": true
+  },
+  "users": [
+    {
+      "id": "USR-OWNER-01",
+      "name": "Rajesh Sharma (Agency Owner)",
+      "email": "owner@hdbi.in",
+      "phone": "+91 9810123456",
+      "role": "OWNER",
+      "assignedLocalities": [
+        "All Localities"
+      ],
+      "active": true,
+      "dailyTarget": 50000
+    },
+    {
+      "id": "USR-SUP-01",
+      "name": "Manoj Verma (Field Supervisor)",
+      "email": "supervisor@hdbi.in",
+      "phone": "+91 9811234567",
+      "role": "SUPERVISOR",
+      "assignedLocalities": [
+        "Karol Bagh",
+        "Pahar Ganj",
+        "Laxmi Nagar"
+      ],
+      "active": true,
+      "dailyTarget": 40000
+    },
+    {
+      "id": "USR-AGENT-01",
+      "name": "Suresh Kumar",
+      "email": "suresh@hdbi.in",
+      "phone": "+91 9820345678",
+      "role": "AGENT",
+      "assignedLocalities": [
+        "Karol Bagh",
+        "Pahar Ganj"
+      ],
+      "active": true,
+      "dailyTarget": 15000
+    },
+    {
+      "id": "USR-AGENT-02",
+      "name": "Anita Devi",
+      "email": "anita@hdbi.in",
+      "phone": "+91 9830456789",
+      "role": "AGENT",
+      "assignedLocalities": [
+        "Laxmi Nagar",
+        "Preet Vihar"
+      ],
+      "active": true,
+      "dailyTarget": 18000
+    },
+    {
+      "id": "USR-AGENT-03",
+      "name": "Vikas Patel",
+      "email": "vikas@hdbi.in",
+      "phone": "+91 9840567890",
+      "role": "AGENT",
+      "assignedLocalities": [
+        "Rohini Sector 7",
+        "Rohini Sector 8"
+      ],
+      "active": true,
+      "dailyTarget": 20000
+    }
+  ],
+  "customers": [
+    {
+      "id": "HDBI-C-101",
+      "name": "Ramesh Chander Gupta",
+      "phone": "+91 9871100221",
+      "altPhone": "+91 9871100222",
+      "address": "Shop 14, Main Market, Ajmal Khan Road",
+      "locality": "Karol Bagh",
+      "assignedEmployeeId": "USR-AGENT-01",
+      "status": "ACTIVE",
+      "bankName": "State Bank of India",
+      "branchName": "Karol Bagh Central",
+      "rdAccountNumber": "RD-SBI-992140",
+      "installmentAmount": 1000,
+      "frequency": "DAILY",
+      "scheduledDay": 0,
+      "startDate": "2026-01-01",
+      "maturityDate": "2027-01-01",
+      "notes": "Shop owner; collects daily around 2 PM.",
+      "consentGiven": true,
+      "createdAt": "2026-01-01T10:00:00.000Z"
+    },
+    {
+      "id": "HDBI-C-102",
+      "name": "Sunita Mehra",
+      "phone": "+91 9812233445",
+      "address": "Flat 402, Gagan Apartments",
+      "locality": "Laxmi Nagar",
+      "assignedEmployeeId": "USR-AGENT-02",
+      "status": "ACTIVE",
+      "bankName": "Punjab National Bank",
+      "branchName": "Vikas Marg",
+      "rdAccountNumber": "RD-PNB-541290",
+      "installmentAmount": 2000,
+      "frequency": "MONTHLY",
+      "scheduledDay": 29,
+      "startDate": "2026-02-15",
+      "maturityDate": "2027-02-15",
+      "notes": "Monthly salary credit on 28th. Best time morning 10 AM.",
+      "consentGiven": true,
+      "createdAt": "2026-02-15T09:30:00.000Z"
+    },
+    {
+      "id": "HDBI-C-103",
+      "name": "Mohd. Imran Khan",
+      "phone": "+91 9818899776",
+      "address": "32/B, Gali No. 4, Chuna Mandi",
+      "locality": "Pahar Ganj",
+      "assignedEmployeeId": "USR-AGENT-01",
+      "status": "ACTIVE",
+      "bankName": "HDFC Bank",
+      "branchName": "Connaught Place",
+      "rdAccountNumber": "RD-HDFC-887123",
+      "installmentAmount": 1500,
+      "frequency": "MONTHLY",
+      "scheduledDay": 29,
+      "startDate": "2026-03-01",
+      "maturityDate": "2027-03-01",
+      "notes": "Prefers UPI payment QR code scan.",
+      "consentGiven": true,
+      "createdAt": "2026-03-01T11:00:00.000Z"
+    },
+    {
+      "id": "HDBI-C-104",
+      "name": "Pooja Agarwal",
+      "phone": "+91 9822334411",
+      "address": "Pocket D-12, Near Sai Mandir",
+      "locality": "Rohini Sector 7",
+      "assignedEmployeeId": "USR-AGENT-03",
+      "status": "ACTIVE",
+      "bankName": "Bank of Baroda",
+      "branchName": "Rohini West",
+      "rdAccountNumber": "RD-BOB-334109",
+      "installmentAmount": 3000,
+      "frequency": "MONTHLY",
+      "scheduledDay": 29,
+      "startDate": "2026-01-10",
+      "maturityDate": "2027-01-10",
+      "notes": "Teacher at DAV School. Call before visiting.",
+      "consentGiven": true,
+      "createdAt": "2026-01-10T12:00:00.000Z"
+    },
+    {
+      "id": "HDBI-C-105",
+      "name": "Gurpreet Singh",
+      "phone": "+91 9899112233",
+      "address": "House 88, Guru Nanak Block",
+      "locality": "Preet Vihar",
+      "assignedEmployeeId": "USR-AGENT-02",
+      "status": "ACTIVE",
+      "bankName": "ICICI Bank",
+      "branchName": "Swasthya Vihar",
+      "rdAccountNumber": "RD-ICICI-665511",
+      "installmentAmount": 5000,
+      "frequency": "MONTHLY",
+      "scheduledDay": 25,
+      "startDate": "2025-11-25",
+      "maturityDate": "2026-11-25",
+      "notes": "Overdue installment pending; requested follow up on Thursday.",
+      "consentGiven": true,
+      "createdAt": "2025-11-25T14:00:00.000Z"
+    },
+    {
+      "id": "HDBI-C-106",
+      "name": "Dinesh Yadav",
+      "phone": "+91 9877665544",
+      "address": "B-10, Transport Nagar",
+      "locality": "Rohini Sector 8",
+      "assignedEmployeeId": "USR-AGENT-03",
+      "status": "ACTIVE",
+      "bankName": "State Bank of India",
+      "branchName": "Rohini Sector 8",
+      "rdAccountNumber": "RD-SBI-443322",
+      "installmentAmount": 500,
+      "frequency": "DAILY",
+      "scheduledDay": 0,
+      "startDate": "2026-04-01",
+      "maturityDate": "2027-04-01",
+      "notes": "Daily collection at dairy booth.",
+      "consentGiven": true,
+      "createdAt": "2026-04-01T08:00:00.000Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "COL-1793291639567",
+      "customerId": "HDBI-C-102",
+      "scheduleId": "",
+      "amount": 2000,
+      "expectedAmount": 2000,
+      "paymentMethod": "CASH",
+      "outcome": "COLLECTED",
+      "status": "RECORDED",
+      "collectedAt": "2026-10-29T16:33:59.567Z",
+      "employeeId": "USR-OWNER-01",
+      "referenceNumber": "",
+      "notes": "",
+      "idempotencyKey": "COL-SUBMIT-HDBI-C-102-1793291639551"
+    },
+    {
+      "id": "COL-1001",
+      "customerId": "HDBI-C-101",
+      "amount": 1000,
+      "expectedAmount": 1000,
+      "paymentMethod": "CASH",
+      "outcome": "COLLECTED",
+      "status": "VERIFIED",
+      "collectedAt": "2026-10-29T10:15:00.000Z",
+      "employeeId": "USR-AGENT-01",
+      "referenceNumber": "CASH-REC-081",
+      "notes": "Received in full. Verified by Owner.",
+      "idempotencyKey": "IDEMP-1001",
+      "verifiedAt": "2026-10-29T11:00:00.000Z",
+      "verifiedBy": "USR-OWNER-01"
+    },
+    {
+      "id": "COL-1002",
+      "customerId": "HDBI-C-104",
+      "amount": 3000,
+      "expectedAmount": 3000,
+      "paymentMethod": "UPI_QR",
+      "outcome": "COLLECTED",
+      "status": "SUBMITTED",
+      "collectedAt": "2026-10-29T11:30:00.000Z",
+      "employeeId": "USR-AGENT-03",
+      "referenceNumber": "UPI-UTR-9087112233",
+      "notes": "Paid via GPay QR code scan. Pending bank statement matching.",
+      "idempotencyKey": "IDEMP-1002"
+    }
+  ],
+  "handovers": [
+    {
+      "id": "HO-501",
+      "employeeId": "USR-AGENT-01",
+      "date": "2026-10-29",
+      "amountHandedOver": 1000,
+      "totalCollected": 1000,
+      "recipientName": "Rajesh Sharma (Owner)",
+      "status": "ACKNOWLEDGED",
+      "notes": "Daily noon cash handover matched with passbook counterfoil.",
+      "createdAt": "2026-10-29T11:05:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-1793291639567-306",
+      "timestamp": "2026-10-29T16:33:59.567Z",
+      "userId": "USR-OWNER-01",
+      "userName": "Agent",
+      "action": "COLLECTION_ENTRY",
+      "details": "Recorded outcome 'COLLECTED' for Sunita Mehra (Amount: ₹2000)",
+      "entityType": "COLLECTION",
+      "entityId": "COL-1793291639567"
+    },
+    {
+      "id": "LOG-001",
+      "timestamp": "2026-10-29T09:00:00.000Z",
+      "userId": "USR-OWNER-01",
+      "userName": "Rajesh Sharma",
+      "action": "SYSTEM_STARTUP",
+      "details": "HDBI Smart Collection Manager initialized with multi-role access control.",
+      "entityType": "SYSTEM",
+      "entityId": "SYS"
+    },
+    {
+      "id": "LOG-002",
+      "timestamp": "2026-10-29T10:15:00.000Z",
+      "userId": "USR-AGENT-01",
+      "userName": "Suresh Kumar",
+      "action": "COLLECTION_RECORDED",
+      "details": "Recorded cash collection of ₹1,000 for customer Ramesh Chander Gupta.",
+      "entityType": "COLLECTION",
+      "entityId": "COL-1001"
+    },
+    {
+      "id": "LOG-003",
+      "timestamp": "2026-10-29T11:00:00.000Z",
+      "userId": "USR-OWNER-01",
+      "userName": "Rajesh Sharma",
+      "action": "COLLECTION_VERIFIED",
+      "details": "Verified cash collection COL-1001 after physical cash receipt.",
+      "entityType": "COLLECTION",
+      "entityId": "COL-1001"
+    }
+  ]
+}

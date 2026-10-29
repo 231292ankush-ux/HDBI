@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Base Rect -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  
+  <!-- Inner Subtle Ring -->
+  <circle cx="256" cy="230" r="160" fill="none" stroke="#3b82f6" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="8 8" />
+  
+  <!-- Outer Gold Shield / Badge -->
+  <circle cx="256" cy="230" r="140" fill="#1e293b" stroke="url(#goldGrad)" stroke-width="12" />
+
+  <!-- Recurring Deposit / Rupee Vault Emblem -->
+  <!-- Shield shape -->
+  <path d="M256 120 L330 160 V240 C330 290 295 330 256 345 C217 330 182 290 182 240 V160 Z" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="6" />
+
+  <!-- Rupee Symbol -->
+  <text x="256" y="258" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="96" fill="url(#goldGrad)" text-anchor="middle">₹</text>
+
+  <!-- Sync / Recurring Loop Ring -->
+  <path d="M190 200 A 70 70 0 0 1 320 200" fill="none" stroke="url(#emeraldGrad)" stroke-width="8" stroke-linecap="round" />
+  <polygon points="320,188 335,200 320,212" fill="#34d399" />
+
+  <!-- Brand Name Badge -->
+  <rect x="116" y="380" width="280" height="64" rx="18" fill="url(#goldGrad)" />
+  <text x="256" y="425" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="36" fill="#0f172a" letter-spacing="4" text-anchor="middle">HDBI</text>
+  <text x="256" y="468" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="14" fill="#94a3b8" letter-spacing="2" text-anchor="middle">SMART COLLECTION</text>
+</svg>

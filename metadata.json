@@ -1,0 +1,6 @@
+{
+  "name": "HDBI - Smart Collection Manager",
+  "description": "Smart RD collection management, field customer ledger, daily route planning, cash handover reconciliation, and role-based record keeping for bank collection agencies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
